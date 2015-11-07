@@ -22,8 +22,8 @@ angular.module('blogin', ['ionic', 'angularLocalStorage', 'blogin.controllers', 
 })
 
 .constant('config', {
-  serviceBaseUrl: 'http://192.168.1.5/drupal-7.41/?q=',
-  // serviceBaseUrl: 'http://bobrovdevdev.devcloud.acquia-sites.com/?q=',
+  // serviceBaseUrl: 'http://192.168.1.5/drupal-7.41/?q=',
+  serviceBaseUrl: 'http://bobrovdevdev.devcloud.acquia-sites.com/?q=',
   localStoragePrefix: 'blogin_'
 })
 
